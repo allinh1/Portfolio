@@ -1,0 +1,39 @@
+
+.nav {
+    /* The overflow is clipped, and the rest of the content will be invisible */
+    overflow: hidden;
+    text-decoration: lightpink;
+    text-align: center;
+    border: 1px dashed black;
+}
+
+.nav a {
+    float: left;
+    color:lightcoral;
+    padding: 10px 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: crosshair;
+    margin: 10px;
+}
+
+.nav li {
+    list-style-type: none;  
+    float: right;
+/* float vs display? */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav a:hover {
+    color:black;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+nav a:active {
+    background-color: paleturquoise;
+}
