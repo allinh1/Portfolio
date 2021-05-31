@@ -1,0 +1,72 @@
+body input button{
+    font-family: 10px , Calibri;
+}
+
+.button {
+    padding: 8px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.button-primary {
+    background: lightblue
+}
+
+.button-primary:hover {
+    background:darkblue
+}
+
+.button-secondary {
+    background:grey;
+}
+
+.button-secondary:hover {
+    filter: brightness(50%);
+}
+
+.button-danger {
+    background-color: #dc3545;
+}
+
+.button-warning {
+    background-color: #ffc107
+}
+
+.button-success {
+    background-color: #28a745;
+}
+
+.button-outline-primary:hover {
+    border: none;
+    font-size: 20px;
+}
+
+.button-info {
+    background-color: #17a2b8;
+}
+
+.button-dark {
+    background-color: #343a40;;
+}
+
+.button-light {
+    background-color: #f8f9fa;
+    color: black
+}
+
+.button-outline-primary {
+    padding: 20px;
+}
+.button-outline-secondary {
+    font-size: 10px;
+    padding: 5px;
+
+}
+
+.button-outline-secondary:hover{
+    cursor: not-allowed;
+}

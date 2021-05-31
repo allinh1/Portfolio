@@ -1,0 +1,39 @@
+a:hover {
+    color: coral;
+}
+
+a:active {
+    color:white;
+    background-color: black;
+}
+
+a:visited {
+    color: brown
+}
+
+input:enabled {
+    background-color: lightblue;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+input:disabled {
+    background-color: white;
+    border: 1px rgb(49, 48, 48) solid;
+    border-radius: 5px;
+}
+
+input:required {
+    border-color: red;
+    border: 1px solid red;
+}
+
+.btn {
+    background-color: lightblue;
+    border: 1px black solid
+    
+}
+
+input:focus {
+    outline: red;
+}
