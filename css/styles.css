@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  background-color: lightblue;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  margin: 40px;
+}
+
+header {
+  height: 40vh;
+}
+
+section {
+  height: 75vh;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links > div {
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  font-size: small;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem;
+}
+
+input,
+textarea {
+  height: 20px;
+  padding: 10px;
+  width: 40rem;
+  height: 10px;
+}
+
+.container__box2 {
+  display: flex;
+  justify-content: space-around;
+}
+.container__box2 > div {
+  border: 1px solid black;
+  padding: 50px;
+}
+.container__box2 > div > div {
+  display: flex;
+  justify-content: space-around;
+  border: 1px dashed black;
+  padding: 80px;
+}
+
+.boxright {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+.container2 > div {
+  border: 1px solid black;
+  background-color: white;
+  padding: 50px;
+  border-radius: 50px/50px;
+}
