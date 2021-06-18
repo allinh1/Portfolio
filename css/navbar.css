@@ -8,8 +8,7 @@ nav {
   top: 20px;
   width: 100%;
 }
-nav li,
-nav a {
+nav li, nav a {
   text-decoration: none;
   list-style-type: none;
   color: black;
